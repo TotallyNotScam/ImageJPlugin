@@ -1,0 +1,1 @@
+{"class":"_AddShapesToTheImageAsOverlays","values":{"menuPath":"Plugins>Draw>Draw new ROI","type":"org.scijava.command.Command"}}{"class":"_SelectOrCompareLayers","values":{"menuPath":"Plugins>Show>Show only specific layers","type":"org.scijava.command.Command"}}
