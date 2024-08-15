@@ -1,1 +1,7 @@
-# ImageJPlugin
+A mellékelt Jar fájlt az ImageJ plugins mappájába kell bemásolni, ezután már látni fogja azt és lehet használni a benne lévő pluginokat.
+A TIF fájlra rajzoló plugin a Plugins-> Draw menüpont alatt található, az összehasonlítást végző pedig a Plugins -> Show menüpotja alatt található. 
+A rajzolásnál ha a kívánt ROI elkészült, akkor annak területét a shift vagy control billentyűk egyikének és az egér bal gombjának együttes lenyomásával lehet szerkeszteni. A shift lenoymásakor növelni lehet a területét a controllal pedig csökkenteni azt. 
+Összehasonlításnál, ha a két annotáció overlayeit egymásra szeretné helyezni, akkor csak és kizárólag egy fóliát válasszon ki egyéb esetben nem fog megfelően működni. Ha belekattint az egyik ROI-ba akkor elő fog jönni egy párbeszédablak ahol el lehet dönteni, hogy melyik objektumot tartsa meg a plugin (Itt előfordulhat, hogy egy másik felugró ablak is megjelenik, emiatt nem lehet választani, az ESC gomb megnyomása után az el fog tűánni és használható lesz a párbeszédablak). A végleges ROI ugyanúgy szerkesztehtő a shift és ctrl billentyű lenyomásával ugyanolyan módon mint a rajzolásnál.
+A toolbar hozzáadására két mód van, az egyik, hogy az ImageJ plugins füle alatt a new macrohoz bemásolja  a mellékelt Toolbar.IJM fájl forráskódját, a másik lehetőség, hogy a Plugin->MAcros-> Startup macrohoz bemásolja a forráskódot.
+
+FONTOS: A plugin az ImageJ eredeti verziójánál működik biztosan, a FIJI és ImageJ2 verziók esetén nem várt hibák előfordulhatnak, ezért jelenleg azok használata nem javasolt.
